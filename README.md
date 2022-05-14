@@ -2,20 +2,20 @@
 In this program, we will develop classes to use for testing two sorting algorithms (Selection and Quick sort)
 
 
-(1) GenerateRandomList(min, max, size) Generate a given number of random integer
+* (1) GenerateRandomList(min, max, size) Generate a given number of random integer
 data from a certain range. For example, one can generate a vector/array of 10000
 integer numbers that fall in the range from 1 to 100000, e.g., [5554, 32300, 98000,
 342, …]
-(2) GenerateReverseOrderedList(min, max, size) Generate a given number of reverse
+* (2) GenerateReverseOrderedList(min, max, size) Generate a given number of reverse
 ordered integer data from a certain range. You can first generate random data and
 then sort them reversed
-(3) RunOnce(sorter, data, size) Run a given sorting algorithm on a given set of data
+* (3) RunOnce(sorter, data, size) Run a given sorting algorithm on a given set of data
 and calculate the time taken to sort the data
-(4) RunAndAverage(sorter, type, min, max, size, sets_num) Run a given sorting
+* (4) RunAndAverage(sorter, type, min, max, size, sets_num) Run a given sorting
 algorithm on several sets of data of the same length and same attributes (from the
 same range and equally sorted; e.g., random or reversed) and calculate the average
 time
-(5) RunExperient (sorter, type, min, max, min_val, max_val, sets_num, step) Develop
+* (5) RunExperient (sorter, type, min, max, min_val, max_val, sets_num, step) Develop
 an experiment to run a given sorting algorithm and calculate its performance on sets
 of different sizes (e.g., data of size 10000, 20000, etc.) as follows:
 I. All sets are generated with values between min and max
