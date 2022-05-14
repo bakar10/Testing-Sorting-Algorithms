@@ -31,3 +31,4 @@ This means we will run the algorithms on data sets of 5000, 10000, 15000, …,
 sets_num different sets and take the average of their runs
 V. The output of the experiment goes to the screen as a table with two columns; first
 column indicates set size, and second column indicates the average time
+![c4dff640-1b39-4b64-a8a1-2b6d5bd38383](https://user-images.githubusercontent.com/85423140/168445849-21b1f27d-2246-418f-875c-2793f2c060cc.jpg)
